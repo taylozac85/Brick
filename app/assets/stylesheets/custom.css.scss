@@ -11,7 +11,7 @@ body {
 /* SURVEY */
 
 .survey-container {
-    margin-top: 60px;
+  margin-top: 60px;
 	padding: 15px;
 	background-color: white;
 	background-repeat: no-repeat;
@@ -42,4 +42,58 @@ body {
 
 #answer-yn {
 	margin-left: 25px;
+}
+
+/* HOME PAGE */
+
+.masthead {
+	padding: 90px;
+	border: black solid 5px;
+	h1 {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		font-size: 100px;
+		color: red;
+	}
+}
+
+.heading-container {
+	margin-top: 50px;
+	padding: 10px;
+	border: black solid 2px;
+
+}
+
+.balloon-container {
+	padding: 10px;
+	margin: 20px;
+	border: black solid 2px;
+	img, button {
+		display: block;
+		margin-bottom: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.diagram-container {
+	padding: 10px;
+	background-color: yellow;
+	background-repeat: no-repeat;
+	border: black solid 5px;
+	p {
+		text-align: center;
+	}
+}
+
+.img-resize {
+	img {
+		margin-bottom: 20px;
+
+		width: 75px;
+		height: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
