@@ -4,16 +4,16 @@
 /* GENERAL SETTINGS */
 
 body {
-	background-color: #99D5EC;
+	background-color: #CDF1FF;
 	background-repeat: no-repeat;
 }
 
 /* SURVEY */
 
 .survey-container {
-    margin-top: 60px;
-	padding: 15px;
-	background-color: white;
+    margin: 60px 20px 0px 20px;
+	padding: 20px 15px;
+	background-color: #FDFDCC;
 	background-repeat: no-repeat;
 	border-radius: 6px;
 	-webkit-box-shadow: 0 1px 5px 0 #BCBCBC;
@@ -42,4 +42,17 @@ body {
 
 #answer-yn {
 	margin-left: 25px;
+}
+
+.button-holder {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.btn-submit {
+    padding: 15px 25px;
+    background-color: #F2FFE4;
+    background-image: -webkit-linear-gradient(top, #D2FAC3, #A8F5A1);
+
 }
