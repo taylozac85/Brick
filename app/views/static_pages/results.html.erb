@@ -1,0 +1,31 @@
+<div id="results-page-container">
+  <div class="row-fluid">
+    <div class="span6" id="results-section-container">
+      <div id="survey-results-container">
+        <h1 class="results-header">Survey Results</h1>
+        <div class="survey-question" id="survey-question-lead">
+          1) How do you currently solicit feedback from friends on your startup?
+        </div>
+        <div class="survey-result-answer">
+          <img src="assets/piechart1.png" width="450" height="200">
+        </div>
+        <div class="survey-question">
+          2) Would you use Brick to generate feedback from your friends?
+        </div>
+        <div class="survey-result-answer">
+          <img src="assets/barchart1.png" width="450" height="100">
+        </div>
+        <div class="survey-question">
+          3) How much would you pay to use Brick?
+        </div>
+        <div class="survey-result-answer">
+          <img src="assets/piechart2.png" width="450" height="200">
+        </div>
+      </div>
+    </div>
+    <div class="span6" id="results-section-container">
+      <h1 class="results-header">Comment Board</h1>
+      <%= render "static_pages/comments" %>
+    </div>
+  </div>
+</div>

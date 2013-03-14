@@ -4,13 +4,14 @@
 /* GENERAL SETTINGS */
 
 body {
-	background-color: #CDF1FF;
+	color: rgb(85, 85, 85);
+	background-color: #0073AA;
 	background-repeat: no-repeat;
 }
 
 /* SURVEY */
 
-.survey-container {
+#survey-container {
     margin: 60px 20px 0px 20px;
 	padding: 20px 15px;
 	background-color: #FDFDCC;
@@ -27,6 +28,7 @@ body {
 
 .survey-question {
 	margin-top: 20px;
+
 }
 
 .answer-options {
@@ -52,7 +54,30 @@ body {
 
 .btn-submit {
     padding: 15px 25px;
-    background-color: #F2FFE4;
-    background-image: -webkit-linear-gradient(top, #D2FAC3, #A8F5A1);
+}
 
+/* SURVEY RESULTS */
+
+#results-page-container {
+	margin: 60px 50px 60px 50px;
+}
+
+.results-header {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#results-section-container {
+	padding: 20px 15px;
+	background-color: #FFFFE0;
+	background-repeat: no-repeat;
+	border-radius: 6px;
+}
+
+#survey-results-container {
+	font-size: 16px;
+}
+
+.survey-result-answer {
+	margin-top: 15px;
 }
