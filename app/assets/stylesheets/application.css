@@ -11,3 +11,8 @@
  *= require_self
  *= require_tree .
  */
+
+#user_header {
+	margin: 5px;
+  float: right;
+}

@@ -1,5 +1,11 @@
 Brick::Application.routes.draw do
+  resources :sessions
+  resources :users  
   resources :surveys
+
+  get 'signup', to: 'users#new', as: 'signup'
+  get 'login', to: 'sessions#new', as: 'login'
+  get 'logout', to: 'sessions#destroy', as: 'logout'
 
   root to: 'static_pages#home'
 
