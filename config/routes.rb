@@ -9,6 +9,7 @@ Brick::Application.routes.draw do
 
   root to: 'static_pages#home'
 
+  match '/home' => 'static_pages#home'
   match '/survey' => 'static_pages#survey'
   match '/results' => 'static_pages#results'
 

@@ -176,8 +176,8 @@ body {
 
 
 .survey-builder-container {
-	margin: 60px 20px 0px 20px;
-	padding: 20px 15px;
+	font-size: 15px;
+	margin: 60px 20px 60px 20px;
 	background-color: #FFFFE0;
 	background-repeat: no-repeat;
 	border-radius: 6px;
@@ -187,43 +187,75 @@ body {
 }
 
 .questions {
-  list-style: none;
-  font-weight: bold;
-  margin: 0;
-  padding: 0;
-  > li {
-    margin: 20px 0;
-    padding: 0;
-  }
+  	list-style: none;
+  	font-weight: bold;
+  	margin: 0;
+  	padding: 0;
+  	> li {
+    	margin: 20px 0;
+    	padding: 0;
+  	}
 }
 
 .answers {
-  list-style: upper-alpha;
-  font-weight: normal;
-  margin: 0;
-  padding: 0;
-  > li {
-    margin: 5px 0;
-    margin-left: 25px;
-  }
+  	list-style: upper-alpha;
+  	font-weight: normal;
+  	margin: 0;
+  	padding: 0;
+  	> li {
+    	margin: 5px 0;
+    	margin-left: 25px;
+  	}
 }
 
 form > fieldset {
-  border: none;
-  border: solid 1px #CCC;
-  padding: 10px 15px;
-  margin: 15px 0;
-  fieldset {
-    border: none;
-    margin: 0;
-    margin: 10px 0;
-    padding: 0;
+	border: none;
+  	border: solid 1px #CCC;
+  	padding: 10px 15px;
+  	margin: 15px 0;
+  	fieldset {
+    	border: none;
+    	margin: 0;
+    	margin: 10px 0;
+    	padding: 0;
   }
 }
 
 textarea {
-  height: 40px;
-  width: 350px;
-  margin-top: 3px;
+  	height: 40px;
+  	width: 350px;
+  	margin-top: 3px;
 }
 
+.survey-intro-container {
+	border-bottom: solid 1px #CCC;
+	padding: 15px 20px 15px 20px;
+}
+
+.startup-name {
+	color: #FF7F50;
+	margin: 0px;
+	font-size: 36px;
+	line-height: 40px;
+	font-weight: bold;
+}
+
+.startup-subtitle {
+	color: #0073AA;
+	font-size: 18px;
+}
+
+.survey-qa-container {
+	padding: 0px 15px 20px 15px;
+}
+
+.site-link {
+	font-size: 24px;
+	color: #2E8B57;
+
+}
+
+.site-link-container {
+	text-align: center;
+	line-height: 60px;
+}
