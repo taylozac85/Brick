@@ -1,7 +1,9 @@
 @import "bootstrap";
 @import "bootstrap-responsive";
 
+
 /* GENERAL SETTINGS */
+
 
 body {
 	color: rgb(85, 85, 85);
@@ -9,10 +11,12 @@ body {
 	background-repeat: no-repeat;
 }
 
+
 /* SURVEY */
 
+
 #survey-container {
-    margin: 60px 20px 0px 20px;
+   margin: 60px 20px 0px 20px;
 	padding: 20px 15px;
 	background-color: #FDFDCC;
 	background-repeat: no-repeat;
@@ -46,31 +50,36 @@ body {
 	margin-left: 25px;
 }
 
+
 /* HOME PAGE */
 
+
 .masthead {
-	padding: 90px;
-	border: black solid 5px;
+	padding: 30px;
 	h1 {
-		margin-top: 30px;
+		text-shadow: 3px 3px #333;
+		text-align: center;
+		margin-top: 75px;
 		margin-bottom: 30px;
 		font-size: 100px;
-		color: red;
+		color: #FF7F50;
+	}
+	h3 {
+		text-align: center;
+		color: #FFFFE0;
+		text-shadow: 2px 2px #333;
 	}
 }
 
 .heading-container {
 	margin-top: 50px;
-	padding: 10px;
-	border: black solid 2px;
 
 }
 
 .balloon-container {
 	padding: 10px;
 	margin: 20px;
-	border: black solid 2px;
-	img, button {
+		img {
 		display: block;
 		margin-bottom: 10px;
 		margin-left: auto;
@@ -78,26 +87,50 @@ body {
 	}
 }
 
+.balloon-size {
+	img {
+		width: 150px;
+		height: auto;
+	}
+}
+
 .diagram-container {
-	padding: 10px;
-	background-color: yellow;
+	padding: 50px 70px 70px 70px;
+	background-color: #FFFFE0;
 	background-repeat: no-repeat;
-	border: black solid 5px;
 	p {
-		text-align: center;
+		font-size: 20px;
+		line-height: 150%;
+		margin-left: 50px;
+		margin-right: 25px;
+		margin-bottom: 50px;
 	}
 }
 
 .img-resize {
 	img {
 		margin-bottom: 20px;
-
-		width: 75px;
+		width: 150px;
 		height: auto;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 	}
+}
+
+.button-feedback {
+	background: #8B0000;
+	color: #FFFFE0;
+	padding: 14px;
+	margin-top: 10px;
+	font-size: 20px;
+	text-shadow: 0px 0px #333;
+	box-shadow: 1px 2px 2px 1px #333;
+}
+
+.button-feedback:hover {
+	background-color: #2E8B57;
+	color: #FFFFE0;
 }
 
 .button-holder {
@@ -110,7 +143,9 @@ body {
     padding: 15px 25px;
 }
 
+
 /* SURVEY RESULTS */
+
 
 #results-page-container {
 	margin: 60px 50px 60px 50px;
