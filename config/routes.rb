@@ -1,4 +1,6 @@
 Brick::Application.routes.draw do
+  resources :surveys
+
   root to: 'static_pages#home'
 
   match '/survey' => 'static_pages#survey'
