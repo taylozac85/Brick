@@ -16,7 +16,7 @@ body {
 
 
 #survey-container {
-    margin: 60px 20px 0px 20px;
+    margin: 50px 20px 0px 20px;
 	padding: 20px 15px;
 	background-color: #FFFFE0;
 	background-repeat: no-repeat;
@@ -148,7 +148,7 @@ body {
 
 
 #results-page-container {
-	margin: 60px 50px 60px 50px;
+	margin: 50px;
 }
 
 .results-header {
@@ -177,13 +177,10 @@ body {
 
 .survey-builder-container {
 	font-size: 15px;
-	margin: 60px 20px 60px 20px;
-	background-color: #FFFFE0;
+	padding: 10px 15px;
+	background-color: lightYellow;
 	background-repeat: no-repeat;
 	border-radius: 6px;
-	-webkit-box-shadow: 0 1px 5px 0 #BCBCBC;
-	 -moz-box-shadow: 0 1px 5px 0 #BCBCBC;
-	      box-shadow: 0 1px 5px 0 #BCBCBC;
 }
 
 .questions {
@@ -227,6 +224,8 @@ textarea {
   	margin-top: 3px;
 }
 
+/* 
+
 .survey-intro-container {
 	border-bottom: solid 1px #CCC;
 	padding: 15px 20px 15px 20px;
@@ -258,4 +257,72 @@ textarea {
 .site-link-container {
 	text-align: center;
 	line-height: 60px;
+}
+
+*/
+
+.survey-intro-container {
+	font-size: 15px;
+	padding: 0px;
+	margin: 30px auto 40px auto;
+	background-color: $grayLight;
+	background-repeat: no-repeat;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 1px 5px 0 #BCBCBC;
+	 -moz-box-shadow: 0 1px 5px 0 #BCBCBC;
+	      box-shadow: 0 1px 5px 0 #BCBCBC;
+	width: 822px;
+	height: auto;
+}
+
+.startup-name {
+	color: #FF7F50;
+	margin: 0px;
+	font-size: 36px;
+	line-height: 40px;
+	font-weight: bold;
+}
+
+.startup-subtitle {
+	color: #0073AA;
+	font-size: 18px;
+}
+
+.survey-qa-container {
+	padding: 0px 15px 0px 15px;
+}
+
+.site-link {
+	font-size: 24px;
+	color: #2E8B57;
+}
+
+.site-link-container {
+	text-align: center;
+	line-height: 60px;
+}
+
+.survey-special-container {
+	margin: 50px 20px;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+}
+
+.color-set-optional {
+	background-color: rgba(255, 255, 255, 0.82);
+}
+
+.screenshot-img {
+	border-radius: 3px;
+	box-shadow: 0 5px 20px 0 #646464;
+}
+
+.screenshot-img:hover {
+	opacity: 0.75;
+	background-color: #646464;
+}
+
+#survey-header {
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: solid 1px rgb(85, 85, 85);
 }

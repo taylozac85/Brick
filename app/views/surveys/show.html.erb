@@ -1,37 +1,35 @@
-<div class="row-fluid">
-  <div class="span8 offset2">
-    <div class="survey-builder-container">
-      <div class="survey-intro-container">
-        <div class="row-fluid">
-          <div class="span8">
-            <a class="startup-name" href="/home"><%= @survey.name %></a>
-            <div class="startup-subtitle">
-              A platform for friends to help develop your startup
-            </div>
-          </div>
-          <div class="span4 site-link-container">
-            <a class="site-link" href="/home">Visit Brick</a>
-          </div>
+<!--set for light background 
+<div class="color-set-optional"> 
+-->
+<div class="survey-special-container">
+  <div class="row-fluid">
+    <div class="span8 offset2">
+      <div class="survey-builder-container">
+        <h1 id="survey-header">Brick Survey</h1>
+        <div class="survey-intro-container">
+          <a href="/home">
+            <img class="screenshot-img" src="/assets/brick_screenshot3.png">
+          </a>
+        </div>
+        <div class="survey-qa-container">
+          <ol class="questions">
+          <% @survey.questions.each do |question| %>
+            <li>
+              <%= question.content %>
+              <ol class="answers">
+                <% question.answers.each do |answer| %>
+                  <li><%= answer.content %></li>
+                <% end %>
+              </ol>
+            </li>
+          <% end %>
+          </ol>
         </div>
       </div>
-      <div class="survey-qa-container">
-        <ol class="questions">
-        <% @survey.questions.each do |question| %>
-          <li>
-            <%= question.content %>
-            <ol class="answers">
-              <% question.answers.each do |answer| %>
-                <li><%= answer.content %></li>
-              <% end %>
-            </ol>
-          </li>
-        <% end %>
-        </ol>
-
-
-        <%= link_to 'Edit', edit_survey_path(@survey) %> |
-        <%= link_to 'Back to Surveys', surveys_path %>
-      </div>
     </div>
+
+  
   </div>
+  <%= link_to 'Edit', edit_survey_path(@survey) %> |
+  <%= link_to 'Back to Surveys', surveys_path %>
 </div>
